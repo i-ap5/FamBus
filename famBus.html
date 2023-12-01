@@ -7502,7 +7502,7 @@ a.anchor-link {
 .para {
   font-size: 16px;
   line-height: 1.2;
-  text-align: justify;
+  text-align: justify-all;
   transition: transform 250ms;
 }
 
@@ -7526,10 +7526,14 @@ th, td {
   text-align: left; 
 }
 
-th {
+.mtable th {
   background-color: #1DB954;
   color: black;
   font-size:15px; 
+}
+th {
+  background-color: #1DB954;
+
 }
 
 tr:nth-child(even) {
@@ -15080,8 +15084,9 @@ Smells Like Teen Spirit - Remastered 2021                12367
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<div class="conclusion">
 <center><h2> <b>Conclusion</b></h2></center>
-<p>Our analysis of music streaming data in 2023 reveals some interesting patterns and trends. Here are the key takeaways:</p>
+<p class="para">Our analysis of music streaming data in 2023 reveals some interesting patterns and trends. Here are the key takeaways:<p>
 <h3 id="Popularity:"><strong>Popularity:</strong><a class="anchor-link" href="#Popularity:">¶</a></h3><ul>
 <li>Newer songs tend to be streamed more, but older classics and songs revived through social media also gain significant traction.</li>
 <li>Bad Bunny reigns supreme as the most streamed artist, while The Weeknd boasts the most playlist appearances, suggesting higher repeatability and genre diversity.</li>
@@ -15110,8 +15115,48 @@ Smells Like Teen Spirit - Remastered 2021                12367
 <li>Other keys show minimal variations in streaming numbers.</li>
 <li>C# is also the most used key across the entire dataset.</li>
 </ul>
-<h3 id="Overall"><strong>Overall</strong><a class="anchor-link" href="#Overall">¶</a></h3><p>Our analysis unveils valuable insights into music streaming preferences in 2023. Listeners seem to favor newer releases but also appreciate classics and social media-driven trends. Singing, major mode, and moderate energy levels resonate well, while instrumentalness, liveness, and speechiness play a smaller role. Specific years present unique trends in danceability, mood, and instrumentalness, suggesting evolving preferences over time. C# reigns supreme as the most streamed key, highlighting its popularity among artists and audiences.</p>
-<p>These findings offer valuable information for artists, music platforms, and anyone interested in understanding the current landscape of music streaming. They can be used to inform content creation, recommendation algorithms, and marketing strategies to better cater to listener preferences and drive engagement.</p>
+<div class="overallContainer">
+<h3 class="heading">Overall Analysis</h3>
+<p class="para indent">Our analysis unveils valuable insights into music streaming preferences in 2023. Listeners seem to favor newer releases but also appreciate classics and social media-driven trends. Singing, major mode, and moderate energy levels resonate well, while instrumentalness, liveness, and speechiness play a smaller role. Specific years present unique trends in danceability, mood, and instrumentalness, suggesting evolving preferences over time. C# reigns supreme as the most streamed key, highlighting its popularity among artists and audiences.
+</p>
+<p class="para indent">These findings offer valuable information for artists, music platforms, and anyone interested in understanding the current landscape of music streaming. They can be used to inform content creation, recommendation algorithms, and marketing strategies to better cater to listener preferences and drive engagement.</p>
+</div>
+</p></p></div>
+<style>
+.overallContainer{
+      padding:2rem;
+      background-color: #1DB954;
+      border-radius:2rem;
+      width:auto;  
+    }
+.heading{
+      font-size:26px;
+      font-weight:800;
+    }
+.para {
+  font-size: 16px;
+  text-align: justify;
+}
+p.indent {
+    text-indent: 30px;
+}
+.conclusion{
+  padding:1.5rem;
+  border-radius:4rem;
+  border: 1px solid #1DB954;
+  width:auto;
+}
+</style>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 </div>
 </div>
 </div>
